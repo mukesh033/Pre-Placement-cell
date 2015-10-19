@@ -1,0 +1,154 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageadmin_home.master.cs" Inherits="MasterPageadmin_home" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="CSS/ppt.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+   
+    <style type="text/css">
+        .auto-style19 {
+            color: #FFFFFF;
+        }
+        .auto-style29 {
+            font-family: "Times New Roman";
+            font-weight: bold;
+            font-size: large;
+        }
+        .auto-style39 {
+            font-family: "Times New Roman";
+            font-size: large;
+        }
+        .auto-style49 {
+            color: #FFFFFF;
+            font-family: "Times New Roman";
+            font-weight: bold;
+            font-size: large;
+        }
+        .auto-style59 {
+            font-family: "Times New Roman", Times, serif;
+        }
+        .auto-style69 {
+            color: #FFFFFF;
+            font-family: "Times New Roman", Times, serif;
+            font-size: medium;
+        }
+        .auto-style79 {
+            font-family: "Times New Roman", Times, serif;
+            font-weight: normal;
+        }
+        .auto-style89 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: medium;
+        }
+        .auto-style99 {
+            color: #00FFFF;
+            font-family: "Monotype Corsiva";
+            font-weight: normal;
+            width: 546px;
+        }
+        .auto-style109 {
+            color: #FFFFFF;
+            font-size: medium;
+        }
+        .auto-style120 {
+            font-family: "Times New Roman";
+            font-weight: bold;
+            font-size: large;
+            width: 546px;
+        }
+        .auto-style121 {
+            font-family: "Times New Roman", Times, serif;
+            width: 546px;
+        }
+    </style>
+
+   
+</head>
+<body>
+ 
+        
+    <form id="form2" runat="server">
+            <div class="container">
+            <div class="row t">
+             <br />
+                
+                <img src="myimage/head2 copy.png" width="600px" height="80px" />
+                <br />
+                 
+               
+               </div>
+                    <div class="row m">
+                        <br />
+                        <ul class="nav nav-pills"> 
+                            
+                            <li>
+                                <a href="admin_home.aspx" >Home </a></li>
+                                 <li><a href="admin_materials.aspx" >Upload materials</a> </li>
+                            <li><a href="notice.aspx"> Notice</a></li>
+                                <li><a href="Addquesans.aspx"> Ans&question</a></li>
+                                <li><a href="mailing.aspx"> Mail</a></li>
+                                <li><a href="SMS.aspx">Sms</a></li>
+                            <li><a href="login.aspx"> Log Out</a></li>
+                               
+                        </ul>
+
+                    </div>
+    <div class="row mc">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+                 <div class="row f">
+            <br />
+
+            <table class="nav-justified">
+                <tr>
+                    <td class="auto-style19">Quick Link&nbsp;</td>
+                    <td class="auto-style120"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong><span class="auto-style5"><strong> copy © NMIET</strong></span>&nbsp;</td>
+                    <td class="auto-style89"><span class="auto-style59">&nbsp; </span> <strong class="auto-style79">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong><span class="auto-style11"> <strong class="auto-style5">Contact Us :-&nbsp;</strong></span></td>
+                </tr>
+                <tr>
+                    <td class="auto-style49"> <strong><a href="Default.aspx" > <span class="auto-style39">Home</span></a></strong><span class="auto-style39"><strong>&nbsp;</span></td>
+                    <td class="auto-style120">&nbsp;</td>
+                    <td class="auto-style69">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mukesh Kumar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9853951269</td>
+                </tr>
+                <tr>
+                    <td class="auto-style49"><a href="contact.aspx" > <strong class="auto-style39">ContactUs</strong></a><span class="auto-style29">&nbsp;</span></td>
+                    <td class="auto-style121">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
+                    <td class="auto-style69">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rashmi Kumari&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7873209711</td>
+                </tr>
+                <tr>
+                    <td class="auto-style49"><a href="gallery.aspx" > <strong class="auto-style39">Gallery</strong></a><span class="auto-style29">&nbsp;</span></td>
+                    <td class="auto-style120">&nbsp;</td>
+                    <td class="auto-style69">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rohit Choudhary&nbsp;&nbsp;&nbsp; 7682828383</td>
+                </tr>
+                <tr>
+                    <td class="auto-style49"><a href="Facilities.aspx" > <strong class="auto-style39">Facilities</strong></a><span class="auto-style29">&nbsp;</span></td>
+                    <td class="auto-style99">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Designed &amp; Developed by&nbsp;&nbsp;</td>
+                    <td class="auto-style69">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anjali Singh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8260741948</td>
+                </tr>
+                <tr>
+                    <td class="auto-style49"><a href="placement.aspx" > <strong class="auto-style39">Placement</strong></a><span class="auto-style29">&nbsp;</span></td>
+                    <td class="auto-style99">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Mukesh,Rashmi,Rohit,Anjali,Warsh,Kanchan</td>
+                    <td class="auto-style69">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warsha Kumari&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9778196007</td>
+                </tr>
+                <tr>
+                    <td class="auto-style19">&nbsp;</td>
+                    <td class="auto-style120">&nbsp;</td>
+                    <td class="auto-style109">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kanchan Kumari&nbsp;&nbsp;&nbsp; 7853059719</td>
+                </tr>
+            </table>
+
+           <br /> <br /> 
+      </div>
+                <br /> <br />
+                </div>
+    </form>
+</body>
+</html>

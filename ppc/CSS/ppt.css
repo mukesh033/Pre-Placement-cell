@@ -1,0 +1,47 @@
+﻿.nav.nav-pills {
+    background-image: url('../myimage/bak1.jpg');
+    height: 45px;
+    width:100%;
+}
+
+
+
+.row.f{
+    background-image:url('../myimage/1928853.jpg');
+    height:220px;
+    padding-top:10px;
+    width: 100%;
+}
+
+
+
+.row.mc {
+      
+        height:auto;
+        //background-color:aliceblue;
+        background-image:url('../myimage/bg.jpg');
+        width:100%;
+      
+       
+
+}
+
+.row.t {
+
+    background-image:url('../myimage/head1.jpg');
+    height:130px;
+    width:100%;
+}
+.row.m {
+    width:100%;
+}
+
+
+.auto {
+    
+    padding-top:5px;
+    font-size:30px;
+
+
+}
+

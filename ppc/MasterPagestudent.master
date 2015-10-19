@@ -1,0 +1,162 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPagestudent.master.cs" Inherits="MasterPagestudent" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+        <link href="Bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/ppt.css" rel="stylesheet" />
+    <script src="js/JQuery.js"></script>
+    <script src="js/myscript.js"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 256px;
+            font-size: medium;
+        }
+        .auto-style2 {
+            width: 422px;
+        }
+        .auto-style3 {
+            font-family: Arial;
+            font-size: small;
+            color: #FFFFFF;
+        }
+        .auto-style4 {
+            width: 256px;
+            height: 19px;
+            font-size: medium;
+        }
+        .auto-style5 {
+            width: 422px;
+            height: 19px;
+        }
+        .auto-style6 {
+            font-size: medium;
+            color: #FFFFFF;
+            height: 19px;
+            font-weight: normal;
+        }
+        .auto-style7 {
+            width: 422px;
+            text-align: center;
+        }
+        .auto-style8 {
+            color: #00FFFF;
+            font-family: "Monotype Corsiva";
+            border-left-color: #A0A0A0;
+            border-right-color: #C0C0C0;
+            border-top-color: #A0A0A0;
+            border-bottom-color: #C0C0C0;
+            padding: 1px;
+        }
+        .auto-style9 {
+            font-size: medium;
+            color: #FFFFFF;
+            font-weight: normal;
+        }
+        .auto-style10 {
+            width: 256px;
+            font-family: ro;
+            color: #00FFFF;
+        }
+        .auto-style11 {
+            font-size: medium;
+            font-weight: normal;
+        }
+        .auto-style12 {
+            width: 256px;
+            font-size: medium;
+            font-weight: normal;
+        }
+        .auto-style13 {
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+            <div class="container">
+            <div class="row t">
+             <br />
+                
+                <img src="myimage/head2 copy.png" width="600px" height="80px" />
+                <br />
+                 
+               
+               </div>
+                    <div class="row m">
+                        <br />
+                        <ul class="nav nav-pills"> 
+                            
+                            <li>
+                                <a href="student_home.aspx" >Home</a></li>
+                                 <li><a href="studentprofile.aspx" >Profile</a> </li>
+                                 <li><a href="changepwd.aspx" > ChangePassword</a></li>
+                            <li><a href="download_materials.aspx">Download Materials</a></li>
+                            <li><a href="studentquiz.aspx">Ques & Ans</a></li>
+                             <li><a href="onlinetest.aspx">Online Exam</a></li>
+                            <li><a href="viewresult.aspx">View result</a></li>
+                            <li><a href="logout.aspx" > Logout</a></li>
+                            
+
+                            
+                        </ul>
+
+                    </div>
+                  
+<div class="row mc">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+                <div class="row f">
+            <br />
+
+            <table class="nav-justified">
+                <tr>
+                    <td class="auto-style10">Quick Link&nbsp;</td>
+                    <td class="auto-style2"><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; copy &copy  NMIET</strong>&nbsp;</td>
+                    <td class="auto-style3">&nbsp; <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact Us :-&nbsp;</strong></td>
+                </tr>
+                <tr>
+                    <td class="auto-style1"> <strong><a href="Default.aspx" > <span class="auto-style13">Home</span></a></strong><span class="auto-style13"><strong>&nbsp;</span></td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mukesh Kumar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9853951269</td>
+                </tr>
+                <tr>
+                    <td class="auto-style4"><a href="contact.aspx" > <strong><span class="auto-style13">ContactUs</span></strong></a><span class="auto-style11">&nbsp;</span></td>
+                    <td class="auto-style5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</td>
+                    <td class="auto-style6">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rashmi Kumari&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7873209711</td>
+                </tr>
+                <tr>
+                    <td class="auto-style1"><a href="gallery.aspx" > <strong><span class="auto-style13">Gallery</span></strong></a><span class="auto-style11">&nbsp;</span></td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rohit Choudhary&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7682828383</td>
+                </tr>
+                <tr>
+                    <td class="auto-style1"><a href="Facilities.aspx" > <strong><span class="auto-style13">Facilities</span></strong></a><span class="auto-style11">&nbsp;</span></td>
+                    <td class="auto-style2">&nbsp;</td>
+                    <td class="auto-style9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Anjali Kumari&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8260741948</td>
+                </tr>
+                <tr>
+                    <td class="auto-style1"><a href="placement.aspx" > <strong><span class="auto-style13">Placement</span></strong></a><span class="auto-style11">&nbsp;</span></td>
+                    <td class="auto-style7">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style8">&nbsp;Designed &amp; Developed by&nbsp; </span></td>
+                    <td class="auto-style9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Warsha Kumari&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9778196007</td>
+                </tr>
+                <tr>
+                    <td class="auto-style12">&nbsp;</td>
+                    <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="auto-style8">Mukesh,Rashmi,Rohit,Anjali,Warsha,Kanchan</span>&nbsp;</td>
+                    <td class="auto-style9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kanchan Kumari&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7853059719</td>
+                </tr>
+            </table>
+
+            
+      </div>
+                </div>
+    </form>
+</body>
+</html>
